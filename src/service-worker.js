@@ -70,29 +70,19 @@ self.addEventListener('message', (event) => {
 });
 
 
-self.addEventListener("install", () => {
+// self.addEventListener("install", () => {
 
-  setInterval(() => {
-    console.log("service")
-  }, 8000)
-})
+//   setInterval(() => {
+//     console.log("service")
+//   }, 8000)
+// })
 
-self.addEventListener("load", () => {
+// self.addEventListener("activate", () => {
 
-  setInterval(() => {
-    console.log("service")
-  }, 8000)
-})
+//   setInterval(() => {
+//     console.log("service")
+//   }, 8000)
+// })
 
 
-self.addEventListener("activate", () => {
-
-  setInterval(() => {
-    console.log("service")
-  }, 8000)
-})
-
-setInterval(() => {
-  console.log("service")
-}, 8000)
 // Any other custom service worker logic can go here.
